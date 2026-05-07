@@ -1,0 +1,51 @@
+.footer {
+  background-color: var(--color-slate-dark);
+  color: var(--color-white);
+  padding: 4rem 2rem 2rem;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.heading {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-white);
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 0.75rem;
+}
+
+.list a {
+  color: var(--color-slate-light);
+  transition: color 0.2s;
+}
+
+.list a:hover {
+  color: var(--color-white);
+}
+
+.address {
+  color: var(--color-slate-light);
+  line-height: 1.6;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--color-slate-light);
+  font-size: 0.875rem;
+}

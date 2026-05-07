@@ -1,0 +1,180 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: var(--color-slate-dark);
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  line-height: 1.4;
+}
+
+.subTagline {
+  display: block;
+  font-size: 1.1rem;
+  color: var(--color-slate-light);
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.section {
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-slate-dark);
+}
+
+.comparisonGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.thenCard, .nowCard {
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.thenCard {
+  background-color: var(--color-white);
+  border-left: 4px solid var(--color-slate-light);
+}
+
+.nowCard {
+  background-color: var(--color-white);
+  border-left: 4px solid var(--color-primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: var(--color-slate-dark);
+}
+
+.list {
+  padding-left: 1.25rem;
+  list-style-type: disc;
+}
+
+.list li {
+  margin-bottom: 1rem;
+  color: var(--color-slate);
+  line-height: 1.5;
+}
+
+.closingStatement {
+  text-align: center;
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--color-slate-dark);
+  padding: 1.5rem;
+  background-color: var(--color-background);
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.stepsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stepCard {
+  background-color: var(--color-white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.stepCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+}
+
+.stepNumber {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 auto 1rem;
+}
+
+.callout {
+  text-align: center;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: 1rem;
+}
+
+.actionContainer {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.primaryButton {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  padding: 1.25rem 3rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(30, 58, 138, 0.3);
+  transition: all 0.2s;
+}
+
+.primaryButton:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.4);
+}
+
+@media (max-width: 768px) {
+  .comparisonGrid {
+    grid-template-columns: 1fr;
+  }
+  .stepsGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .stepsGrid {
+    grid-template-columns: 1fr;
+  }
+}
