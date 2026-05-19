@@ -7,7 +7,7 @@ const blogs = [
   {
     id: 1,
     title: "Why personal connections matter in hiring. And why they are often not enough.",
-    image: "/blog_1.png",
+    image: "/karnam/blog_1.png",
     content: `As you get more experience in your career the way you find new jobs starts to change. At the beginning you can use job websites. Apply to many positions. As time goes on personal connections become really important. You hear about jobs from people you know and they introduce you to new opportunities. You start to rely on these personal referrals than on sending out lots of applications to people you do not know.
 
 This makes sense because when you have a lot of experience hiring is not about filling a position. It is about finding someone who can be trusted to do a job. If someone you have worked with before recommends you that means a lot. It helps the person hiring to make a decision and with more confidence. That is why many experienced professionals depend on their connections to find new jobs.
@@ -31,7 +31,7 @@ Because, in the end the goal is not just to find a job through someone you know 
   {
     id: 2,
     title: "Why does finding the right candidate take long?",
-    image: "/blog_2.png",
+    image: "/karnam/blog_2.png",
     content: `Hiring can be a slow process. It takes a time to find the right person for the job. This process can take weeks or even months. It does not seem like it should take that long. The reason it takes so long is that the process starts out very broadly. It takes a while to get to the point where the right person is found.
 
 When a job opens up the description of the job is usually very general. It lists the responsibilities and the skills and experience that are needed. This description is sent out to a lot of people. It seems like this would be a thing because it would bring in a lot of candidates. The problem is that most of the people who apply are not really a good fit for the job.
@@ -49,7 +49,7 @@ Until that happens hiring is going to seem like a slow process. It is not that t
   {
     id: 3,
     title: "Why do most job applications never get a response?",
-    image: "/blog_3.png",
+    image: "/karnam/blog_3.png",
     content: `It's a feeling. You see a job that seems like a fit for your skills. You take time to make your resume look good maybe even write a note and submit it hoping to hear back. Days turn into weeks. Often there is no response at all. Over time this silence starts to feel like its about you like there's something missing in your profile. But in cases the issue is not the person applying. It's how companies handle applications.
 
 Companies get a lot of applications today more than they can really look at. For one job it's not uncommon to get hundreds of applications. To deal with this companies use filters to narrow down the list. These filters look at things like job titles, keywords, company names or years of work. This helps manage the number of applications. It also has a big limitation: it doesn't look at what someone actually did.

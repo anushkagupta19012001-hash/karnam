@@ -30,7 +30,7 @@ export default function Header({
       <div className={styles.container}>
         <div className={styles.logo} onClick={() => onNavClick('home')} style={{ display: 'flex', alignItems: 'center', cursor: 'pointer', overflow: 'hidden', width: '140px', height: '45px', justifyContent: 'center' }}>
           <Image
-            src="/logo.png"
+            src="/karnam/logo.png"
             alt="Karnam Logo"
             width={240}
             height={80}

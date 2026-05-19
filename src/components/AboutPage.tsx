@@ -7,7 +7,7 @@ export default function AboutPage() {
     <div className={styles.container}>
       <section className={styles.hero}>
         <Image
-          src="/about_hero_bg.png"
+          src="/karnam/about_hero_bg.png"
           alt="Professionals collaborating in an interview"
           fill
           style={{ objectFit: 'cover', objectPosition: 'center' }}
